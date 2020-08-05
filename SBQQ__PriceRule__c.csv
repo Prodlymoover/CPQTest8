@@ -1,0 +1,13 @@
+"Guid","FailOnRequiredField__c","Name","SBQQ__Active__c","SBQQ__AdvancedCondition__c","SBQQ__ConditionsMet__c","SBQQ__ConfiguratorEvaluationEvent__c","SBQQ__EvaluationEvent__c","SBQQ__EvaluationOrder__c","SBQQ__LookupObject__c","SBQQ__TargetObject__c"
+0f4d2d30-a0e9-4ee1-adf3-2c9801232206,n/t,Calculate Tax at Order/Invoice,true,"#N/A",All,"#N/A",Before Calculate,"#N/A","#N/A",Calculator
+18a42690-528c-4b2e-9078-c476dad13a30,n/t,Lookup Approval Level 1 [Discount],true,"#N/A",All,"#N/A",On Initialization,50.0,Approval_Threshold__c,Calculator
+3ab184ef-fa44-452b-b571-28db0702621e,n/t,Set True Discretionary Discount %,false,"#N/A",All,"#N/A",After Calculate,98.0,"#N/A",Calculator
+48c6dac1-aaae-4063-9bb3-291962b4d23e,"#N/A",Set VirusScan Device Count (DEP),false,111 AND (222 OR 333 OR 444),Custom,"#N/A",On Initialization,2.0,"#N/A",Calculator
+4b162fbf-aa1f-46d9-ae86-2bf0453262d1,n/t,Lookup Approval Level 2 [Discount],true,"#N/A",All,"#N/A",On Initialization,51.0,Approval_Threshold__c,Calculator
+89c7f421-1600-4a43-9146-69318fee572f,n/t,Set Quantity for VirusScan Mac,false,"#N/A",All,Edit,Before Calculate,"#N/A","#N/A",Configurator
+9978ebdf-ca79-4492-856a-1767c9b3b223,n/t,Set Professional Services Role Rates,true,"#N/A",All,"#N/A",On Calculate,"#N/A",Professional_Services_Rate__c,Calculator
+a4fe01d5-99f2-466d-ac71-592b06664d17,n/t,Auto Renewal Uplift of 3%,true,"#N/A",All,"#N/A",Before Calculate,"#N/A","#N/A",Calculator
+c97af87a-19b5-4cca-8bfa-af9d5861a24d,n/t,Lookup Approval Level 3 [Discount],true,"#N/A",All,"#N/A",On Initialization,53.0,Approval_Threshold__c,Calculator
+d1ba24ad-3080-485e-ae17-da6de53e0877,n/t,Config - Set Device Count,false,"#N/A",All,Edit,"#N/A",99.0,"#N/A",Configurator
+dff2b760-6766-48a1-9db8-939372841b65,n/t,Lookup Approval Level [Discount],true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,99.0,Approval_Threshold__c,Calculator
+ed89b83d-077f-4e9a-b734-463866174544,n/t,Billing Frequency Approval,true,"#N/A",All,"#N/A",On Initialization;On Calculate,20.0,"#N/A",Calculator
