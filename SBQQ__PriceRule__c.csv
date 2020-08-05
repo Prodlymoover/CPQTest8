@@ -1,0 +1,13 @@
+"Guid","FailOnRequiredField__c","Name","SBQQ__Active__c","SBQQ__AdvancedCondition__c","SBQQ__ConditionsMet__c","SBQQ__ConfiguratorEvaluationEvent__c","SBQQ__EvaluationEvent__c","SBQQ__EvaluationOrder__c","SBQQ__LookupObject__c","SBQQ__TargetObject__c"
+2c8d586f-729d-4f0a-bf28-4a9ec8b98f26,n/t,Lookup Approval Level [Discount],true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,99.0,Approval_Threshold__c,Calculator
+4eec41bd-0912-4918-9eea-1ed485f38269,"#N/A",Set VirusScan Device Count (DEP),false,111 AND (222 OR 333 OR 444),Custom,"#N/A",On Initialization,2.0,"#N/A",Calculator
+680236b0-ee88-4277-8269-6e0e09b6e0d6,n/t,Lookup Approval Level 1 [Discount],true,"#N/A",All,"#N/A",On Initialization,50.0,Approval_Threshold__c,Calculator
+6aca97e7-c608-405f-8db2-ca4844920467,n/t,Config - Set Device Count,false,"#N/A",All,Edit,"#N/A",99.0,"#N/A",Configurator
+7588974e-bc72-4aad-b77e-057d5d6c418d,n/t,Lookup Approval Level 3 [Discount],true,"#N/A",All,"#N/A",On Initialization,53.0,Approval_Threshold__c,Calculator
+8bbd84a5-fcb9-494f-baaf-c8eeac6bd166,n/t,Set True Discretionary Discount %,false,"#N/A",All,"#N/A",After Calculate,98.0,"#N/A",Calculator
+8c696a7a-6dd9-4924-844e-44c698b1bd00,n/t,Auto Renewal Uplift of 3%,true,"#N/A",All,"#N/A",Before Calculate,"#N/A","#N/A",Calculator
+be575378-0f3c-4563-8fa9-fc0840e48d8d,n/t,Calculate Tax at Order/Invoice,true,"#N/A",All,"#N/A",Before Calculate,"#N/A","#N/A",Calculator
+d17bfaf3-f0f3-4792-a79b-fd2fd8edb8c5,n/t,Set Professional Services Role Rates,true,"#N/A",All,"#N/A",On Calculate,"#N/A",Professional_Services_Rate__c,Calculator
+d1cbe613-be52-40b5-b133-b0e415f5648c,n/t,Lookup Approval Level 2 [Discount],true,"#N/A",All,"#N/A",On Initialization,51.0,Approval_Threshold__c,Calculator
+e50d3ac9-da95-447a-aac8-3f5ad5955629,n/t,Billing Frequency Approval,true,"#N/A",All,"#N/A",On Initialization;On Calculate,20.0,"#N/A",Calculator
+f280df9e-83e6-41e3-96e6-54a9717daa49,n/t,Set Quantity for VirusScan Mac,false,"#N/A",All,Edit,Before Calculate,"#N/A","#N/A",Configurator
